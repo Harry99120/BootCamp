@@ -28,7 +28,6 @@ class ATM:
         else:
             print("Auth failed or limit exceeded")
 
-# Example
 atm = ATM(1234, 50000, "Harmeet")
 if atm.authenticate(1234):
     atm.withdraw(5000)

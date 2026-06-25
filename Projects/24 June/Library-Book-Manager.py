@@ -17,7 +17,6 @@ class Book:
     def return_book(self, n):
         self.__copies += n
 
-# Example
 b1 = Book("123-ABC", "Python Basics", "Author X", 5)
 b1.checkout(2)
 print(f"Available: {b1.available}")

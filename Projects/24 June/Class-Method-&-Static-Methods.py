@@ -18,4 +18,4 @@ class Employee:
 e1 = Employee("Alice", "CSE")
 e2 = Employee("Bob", "ECE")
 
-print(Employee.get_count())  # Output: KRM Corp has 2 employees.
+print(Employee.get_count())  

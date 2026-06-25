@@ -18,6 +18,5 @@ class Student:
         else:
             print("Invalid marks")
 
-# Example
 s1 = Student(1, [80, 90, 95])
 print(f"GPA: {s1.gpa}, Total Students: {Student.count}")
